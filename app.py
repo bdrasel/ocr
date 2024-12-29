@@ -4,9 +4,12 @@ import os
 import cv2
 import numpy as np
 import logging
+import sys
+
 
 # Initialize Flask app and logging
 app = Flask(__name__)
+application = app
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(message)s', handlers=[logging.StreamHandler()])
 
 
