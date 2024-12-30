@@ -6,12 +6,21 @@ import numpy as np
 import logging
 import sys
 
-
 # Initialize Flask app and logging
 app = Flask(__name__)
-application = app
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(message)s', handlers=[logging.StreamHandler()])
+application = app  # Required for cPanel and WSGI
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(message)s',
+    handlers=[
+        logging.FileHandler("flask_app.log"),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
 
+# Set upload folder
+UPLOAD_FOLDER = 'uploads'
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)  # Ensure the uploads directory exists
 
 def is_image_quality_low(image_path):
     """
@@ -59,13 +68,22 @@ def nid_ocr():
     Endpoint to process an image and extract text using OCR.
     """
     try:
+        # Debug incoming request
+        logging.debug(f"Headers: {request.headers}")
+        logging.debug(f"Form Data: {request.form}")
+        logging.debug(f"Files: {request.files}")
+
         if 'file' not in request.files:
             logging.error("No file part in the request.")
             return jsonify({'error': 'No file part in the request'}), 400
 
         image_file = request.files['file']
-        temp_path = os.path.join('uploads', image_file.filename)
-        os.makedirs(os.path.dirname(temp_path), exist_ok=True)
+        if image_file.filename == '':
+            logging.error("No file selected.")
+            return jsonify({'error': 'No file selected'}), 400
+
+        # Save file
+        temp_path = os.path.join(UPLOAD_FOLDER, image_file.filename)
         image_file.save(temp_path)
 
         # Check image quality
@@ -78,7 +96,7 @@ def nid_ocr():
         try:
             reader = easyocr.Reader(['en', 'bn'], gpu=True)
         except Exception as gpu_error:
-            logging.warning("GPU not available, falling back to CPU.")
+            logging.warning(f"GPU not available ({gpu_error}), falling back to CPU.")
             reader = easyocr.Reader(['en', 'bn'], gpu=False)
 
         # Perform OCR
@@ -149,4 +167,4 @@ if __name__ == '__main__':
     # Ensure UTF-8 is supported
     os.environ['LC_ALL'] = 'en_US.UTF-8'
     os.environ['LANG'] = 'en_US.UTF-8'
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)

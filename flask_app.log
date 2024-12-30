@@ -1,0 +1,87 @@
+2024-12-29 19:42:21,160 -  * Debugger is active!
+2024-12-29 19:42:21,162 -  * Debugger PIN: 127-711-777
+2024-12-29 19:42:32,471 - Accessed the home route.
+2024-12-29 19:42:32,472 - 127.0.0.1 - - [29/Dec/2024 19:42:32] "GET / HTTP/1.1" 200 -
+2024-12-29 19:42:32,548 - 127.0.0.1 - - [29/Dec/2024 19:42:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-29 19:42:47,300 - Accessed the home route.
+2024-12-29 19:42:47,301 - 127.0.0.1 - - [29/Dec/2024 19:42:47] "GET / HTTP/1.1" 200 -
+2024-12-29 19:43:40,537 - Accessed the home route.
+2024-12-29 19:43:40,538 - 127.0.0.1 - - [29/Dec/2024 19:43:40] "GET / HTTP/1.1" 200 -
+2024-12-29 19:44:00,293 - 127.0.0.1 - - [29/Dec/2024 19:44:00] "[31m[1mGET /image_to_text HTTP/1.1[0m" 405 -
+2024-12-29 19:44:07,329 - 127.0.0.1 - - [29/Dec/2024 19:44:07] "[31m[1mGET /image_to_text HTTP/1.1[0m" 405 -
+2024-12-29 19:44:36,130 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-29 19:44:43,344 - raw_text[0]: গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+2024-12-29 19:44:43,344 - raw_text[1]: Government of the People's Republic of Bangladesh
+2024-12-29 19:44:43,344 - raw_text[2]: জাতীয় পরিচয়পত্র
+2024-12-29 19:44:43,344 - raw_text[3]: National ID Card
+2024-12-29 19:44:43,344 - raw_text[4]: 19
+2024-12-29 19:44:43,345 - raw_text[5]: 1898
+2024-12-29 19:44:43,345 - raw_text[6]: নাম
+2024-12-29 19:44:43,345 - raw_text[7]: এম, এম, এনামুল হোসাইন
+2024-12-29 19:44:43,345 - raw_text[8]: Name
+2024-12-29 19:44:43,345 - raw_text[9]: M;N. ENANUL HOSSAIN
+2024-12-29 19:44:43,345 - raw_text[10]: পিতা
+2024-12-29 19:44:43,345 - raw_text[11]: মোল্লা নাসির উদ্দিন
+2024-12-29 19:44:43,345 - raw_text[12]: মাতা
+2024-12-29 19:44:43,345 - raw_text[13]: জয়নাব
+2024-12-29 19:44:43,345 - raw_text[14]: Date of Birth
+2024-12-29 19:44:43,345 - raw_text[15]: 19 May 1998
+2024-12-29 19:44:43,345 - raw_text[16]: এনামুন শসীল্প
+2024-12-29 19:44:43,345 - raw_text[17]: NID No
+2024-12-29 19:44:43,345 - raw_text[18]: 375 443 4268
+2024-12-29 19:44:43,345 - raw_text[19]: Haj
+2024-12-29 19:44:43,347 - 127.0.0.1 - - [29/Dec/2024 19:44:43] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-29 19:48:53,259 -  * Detected change in '/home/vg/Desktop/simple_ocr/app.py', reloading
+2024-12-29 19:48:55,616 -  * Debugger is active!
+2024-12-29 19:48:55,618 -  * Debugger PIN: 127-711-777
+2024-12-29 19:48:56,677 -  * Detected change in '/home/vg/Desktop/simple_ocr/app.py', reloading
+2024-12-29 19:48:58,946 -  * Debugger is active!
+2024-12-29 19:48:58,948 -  * Debugger PIN: 127-711-777
+2024-12-29 19:56:23,065 -  * Detected change in '/home/vg/Desktop/simple_ocr/app.py', reloading
+2024-12-29 19:56:25,294 -  * Debugger is active!
+2024-12-29 19:56:25,296 -  * Debugger PIN: 127-711-777
+2024-12-29 19:57:04,685 - Accessed the home route.
+2024-12-29 19:57:04,686 - 127.0.0.1 - - [29/Dec/2024 19:57:04] "GET / HTTP/1.1" 200 -
+2024-12-29 19:57:27,085 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 538da0bf-51c5-49f1-99db-4b74c320055b
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------520283054116165234424493
+Content-Length: 123799
+
+
+2024-12-29 19:57:27,087 - Form Data: ImmutableMultiDict([])
+2024-12-29 19:57:27,087 - Files: ImmutableMultiDict([('file', <FileStorage: 'enamul.jpeg' ('image/jpeg')>)])
+2024-12-29 19:57:27,104 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-29 19:57:34,372 - raw_text[0]: গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+2024-12-29 19:57:34,372 - raw_text[1]: Government of the People's Republic of Bangladesh
+2024-12-29 19:57:34,372 - raw_text[2]: জাতীয় পরিচয়পত্র
+2024-12-29 19:57:34,372 - raw_text[3]: National ID Card
+2024-12-29 19:57:34,372 - raw_text[4]: 19
+2024-12-29 19:57:34,372 - raw_text[5]: 1898
+2024-12-29 19:57:34,372 - raw_text[6]: নাম
+2024-12-29 19:57:34,372 - raw_text[7]: এম, এম, এনামুল হোসাইন
+2024-12-29 19:57:34,372 - raw_text[8]: Name
+2024-12-29 19:57:34,372 - raw_text[9]: M;N. ENANUL HOSSAIN
+2024-12-29 19:57:34,372 - raw_text[10]: পিতা
+2024-12-29 19:57:34,372 - raw_text[11]: মোল্লা নাসির উদ্দিন
+2024-12-29 19:57:34,373 - raw_text[12]: মাতা
+2024-12-29 19:57:34,373 - raw_text[13]: জয়নাব
+2024-12-29 19:57:34,373 - raw_text[14]: Date of Birth
+2024-12-29 19:57:34,373 - raw_text[15]: 19 May 1998
+2024-12-29 19:57:34,373 - raw_text[16]: এনামুন শসীল্প
+2024-12-29 19:57:34,373 - raw_text[17]: NID No
+2024-12-29 19:57:34,373 - raw_text[18]: 375 443 4268
+2024-12-29 19:57:34,373 - raw_text[19]: Haj
+2024-12-29 19:57:34,375 - 127.0.0.1 - - [29/Dec/2024 19:57:34] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-29 20:00:52,271 - Accessed the home route.
+2024-12-29 20:00:52,272 - 127.0.0.1 - - [29/Dec/2024 20:00:52] "GET / HTTP/1.1" 200 -
+2024-12-29 20:04:59,204 -  * Detected change in '/home/vg/Desktop/simple_ocr/app.py', reloading
+2024-12-29 20:05:01,520 -  * Debugger is active!
+2024-12-29 20:05:01,522 -  * Debugger PIN: 127-711-777
+2024-12-29 20:06:23,425 -  * Detected change in '/home/vg/Desktop/simple_ocr/app.py', reloading
+2024-12-29 20:06:25,653 -  * Debugger is active!
+2024-12-29 20:06:25,655 -  * Debugger PIN: 127-711-777
