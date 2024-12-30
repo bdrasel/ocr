@@ -85,3 +85,850 @@ Content-Length: 123799
 2024-12-29 20:06:23,425 -  * Detected change in '/home/vg/Desktop/simple_ocr/app.py', reloading
 2024-12-29 20:06:25,653 -  * Debugger is active!
 2024-12-29 20:06:25,655 -  * Debugger PIN: 127-711-777
+2024-12-30 17:56:12,626 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.10.159:5000
+2024-12-30 17:56:12,626 - [33mPress CTRL+C to quit[0m
+2024-12-30 17:56:12,629 -  * Restarting with stat
+2024-12-30 17:56:14,451 -  * Debugger is active!
+2024-12-30 17:56:14,520 -  * Debugger PIN: 133-935-886
+2024-12-30 17:56:17,895 - Accessed the home route.
+2024-12-30 17:56:17,896 - 127.0.0.1 - - [30/Dec/2024 17:56:17] "GET / HTTP/1.1" 200 -
+2024-12-30 17:56:18,046 - 127.0.0.1 - - [30/Dec/2024 17:56:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-30 17:56:42,028 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: abd24862-e2a0-4870-adcc-ea4b77420dcd
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------455933962047998910795053
+Content-Length: 123799
+
+
+2024-12-30 17:56:42,029 - Form Data: ImmutableMultiDict([])
+2024-12-30 17:56:42,029 - Files: ImmutableMultiDict([('file', <FileStorage: 'enamul.jpeg' ('image/jpeg')>)])
+2024-12-30 17:56:42,145 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 17:56:56,249 - raw_text[0]: গণপ্রজাতন্ত্রী বাংলাদেশ সরকার
+2024-12-30 17:56:56,249 - raw_text[1]: Government of the People's Republic of Bangladesh
+2024-12-30 17:56:56,249 - raw_text[2]: জাতীয় পরিচয়পত্র
+2024-12-30 17:56:56,249 - raw_text[3]: National ID Card
+2024-12-30 17:56:56,249 - raw_text[4]: 19
+2024-12-30 17:56:56,250 - raw_text[5]: 1898
+2024-12-30 17:56:56,250 - raw_text[6]: নাম
+2024-12-30 17:56:56,250 - raw_text[7]: এম, এম, এনামুল হোসাইন
+2024-12-30 17:56:56,250 - raw_text[8]: Name
+2024-12-30 17:56:56,250 - raw_text[9]: M;N. ENANUL HOSSAIN
+2024-12-30 17:56:56,250 - raw_text[10]: পিতা
+2024-12-30 17:56:56,250 - raw_text[11]: মোল্লা নাসির উদ্দিন
+2024-12-30 17:56:56,250 - raw_text[12]: মাতা
+2024-12-30 17:56:56,250 - raw_text[13]: জয়নাব
+2024-12-30 17:56:56,250 - raw_text[14]: Date of Birth
+2024-12-30 17:56:56,250 - raw_text[15]: 19 May 1998
+2024-12-30 17:56:56,250 - raw_text[16]: এনামুন শসীল্প
+2024-12-30 17:56:56,250 - raw_text[17]: NID No
+2024-12-30 17:56:56,250 - raw_text[18]: 375 443 4268
+2024-12-30 17:56:56,250 - raw_text[19]: Haj
+2024-12-30 17:56:56,252 - 127.0.0.1 - - [30/Dec/2024 17:56:56] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 17:57:10,012 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 17:57:10,743 -  * Restarting with stat
+2024-12-30 17:57:12,551 -  * Debugger is active!
+2024-12-30 17:57:12,553 -  * Debugger PIN: 133-935-886
+2024-12-30 17:59:26,616 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 17:59:27,044 -  * Restarting with stat
+2024-12-30 17:59:28,849 -  * Debugger is active!
+2024-12-30 17:59:28,851 -  * Debugger PIN: 133-935-886
+2024-12-30 17:59:42,193 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 17:59:42,647 -  * Restarting with stat
+2024-12-30 17:59:44,416 -  * Debugger is active!
+2024-12-30 17:59:44,418 -  * Debugger PIN: 133-935-886
+2024-12-30 17:59:50,592 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 17:59:51,023 -  * Restarting with stat
+2024-12-30 17:59:52,826 -  * Debugger is active!
+2024-12-30 17:59:52,828 -  * Debugger PIN: 133-935-886
+2024-12-30 18:00:02,071 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:00:02,479 -  * Restarting with stat
+2024-12-30 18:00:04,333 -  * Debugger is active!
+2024-12-30 18:00:04,335 -  * Debugger PIN: 133-935-886
+2024-12-30 18:00:06,424 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:00:06,830 -  * Restarting with stat
+2024-12-30 18:00:08,633 -  * Debugger is active!
+2024-12-30 18:00:08,635 -  * Debugger PIN: 133-935-886
+2024-12-30 18:00:09,695 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:00:10,126 -  * Restarting with stat
+2024-12-30 18:00:11,919 -  * Debugger is active!
+2024-12-30 18:00:11,921 -  * Debugger PIN: 133-935-886
+2024-12-30 18:05:26,058 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:05:26,474 -  * Restarting with stat
+2024-12-30 18:05:28,322 -  * Debugger is active!
+2024-12-30 18:05:28,324 -  * Debugger PIN: 133-935-886
+2024-12-30 18:05:29,385 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:05:29,779 -  * Restarting with stat
+2024-12-30 18:05:31,589 -  * Debugger is active!
+2024-12-30 18:05:31,591 -  * Debugger PIN: 133-935-886
+2024-12-30 18:05:34,701 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 70db7ef1-cf0b-4439-b9e4-f023c21bbcd4
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+2024-12-30 18:05:34,703 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:05:34,703 - Files: ImmutableMultiDict([])
+2024-12-30 18:05:34,703 - No file part in the request.
+2024-12-30 18:05:34,703 - 127.0.0.1 - - [30/Dec/2024 18:05:34] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:05:46,974 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:05:47,360 -  * Restarting with stat
+2024-12-30 18:05:49,129 -  * Debugger is active!
+2024-12-30 18:05:49,131 -  * Debugger PIN: 133-935-886
+2024-12-30 18:05:57,352 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:05:57,787 -  * Restarting with stat
+2024-12-30 18:05:59,620 -  * Debugger is active!
+2024-12-30 18:05:59,622 -  * Debugger PIN: 133-935-886
+2024-12-30 18:06:00,914 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 6640c0c0-3f56-41ac-b11d-9c51b0219bcb
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+2024-12-30 18:06:00,915 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:06:00,915 - Files: ImmutableMultiDict([])
+2024-12-30 18:06:00,915 - No file part in the request.
+2024-12-30 18:06:00,915 - 127.0.0.1 - - [30/Dec/2024 18:06:00] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:07:18,948 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 53dc6963-db0e-42c0-86cb-5a6510ec559b
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------929241547012143991722458
+Content-Length: 550954
+
+
+2024-12-30 18:07:18,950 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:07:18,950 - Files: ImmutableMultiDict([('back_part', <FileStorage: 'enamul_back.png' ('image/png')>)])
+2024-12-30 18:07:18,950 - No file part in the request.
+2024-12-30 18:07:18,950 - 127.0.0.1 - - [30/Dec/2024 18:07:18] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:10:37,002 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:10:37,436 -  * Restarting with stat
+2024-12-30 18:10:39,279 -  * Debugger is active!
+2024-12-30 18:10:39,281 -  * Debugger PIN: 133-935-886
+2024-12-30 18:12:08,351 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:12:08,783 -  * Restarting with stat
+2024-12-30 18:12:10,616 -  * Debugger is active!
+2024-12-30 18:12:10,618 -  * Debugger PIN: 133-935-886
+2024-12-30 18:12:48,762 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 49b100c8-9033-4584-9496-9cad5bf50c66
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------603459934788494156609796
+Content-Length: 550954
+
+
+2024-12-30 18:12:48,764 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:12:48,765 - Files: ImmutableMultiDict([('back_part', <FileStorage: 'enamul_back.png' ('image/png')>)])
+2024-12-30 18:12:48,765 - Both 'front_part' and 'back_part' files are required.
+2024-12-30 18:12:48,765 - 127.0.0.1 - - [30/Dec/2024 18:12:48] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:13:40,986 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 9af9c0c0-d338-4d67-a663-a4f58aa2b553
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------906990424834157414617381
+Content-Length: 550954
+
+
+2024-12-30 18:13:40,988 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:13:40,988 - Files: ImmutableMultiDict([('back_part', <FileStorage: 'enamul_back.png' ('image/png')>)])
+2024-12-30 18:13:40,988 - Both 'front_part' and 'back_part' files are required.
+2024-12-30 18:13:40,988 - 127.0.0.1 - - [30/Dec/2024 18:13:40] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:17:20,695 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:17:21,122 -  * Restarting with stat
+2024-12-30 18:17:22,938 -  * Debugger is active!
+2024-12-30 18:17:22,940 -  * Debugger PIN: 133-935-886
+2024-12-30 18:17:27,791 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 8d4501d7-7697-40dd-9ce6-b845e034c99a
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------733000120080098489818647
+Content-Length: 550954
+
+
+2024-12-30 18:17:27,794 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:17:27,794 - Files: ImmutableMultiDict([('back_part', <FileStorage: 'enamul_back.png' ('image/png')>)])
+2024-12-30 18:17:27,794 - Missing files. Received: ['back_part']
+2024-12-30 18:17:27,795 - 127.0.0.1 - - [30/Dec/2024 18:17:27] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:18:14,719 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 5a0fe47d-f40d-45df-8060-65a6cbf2bb4c
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------443900350489518424464696
+Content-Length: 550954
+
+
+2024-12-30 18:18:14,721 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:18:14,721 - Files: ImmutableMultiDict([('back_part', <FileStorage: 'enamul_back.png' ('image/png')>)])
+2024-12-30 18:18:14,722 - Missing files. Received: ['back_part']
+2024-12-30 18:18:14,722 - 127.0.0.1 - - [30/Dec/2024 18:18:14] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:21:56,180 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:21:56,603 -  * Restarting with stat
+2024-12-30 18:21:58,456 -  * Debugger is active!
+2024-12-30 18:21:58,458 -  * Debugger PIN: 133-935-886
+2024-12-30 18:22:00,687 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: d7b94926-8488-4472-8af5-e6680ddfb394
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------176717743367157244731509
+Content-Length: 550954
+
+
+2024-12-30 18:22:00,690 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:22:00,690 - Files: {'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:22:00,690 - Missing files. Received: ['back_part']
+2024-12-30 18:22:00,690 - 127.0.0.1 - - [30/Dec/2024 18:22:00] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:22:25,480 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ea2d4eb6-bc78-486d-9db3-402dbdf3ee13
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+2024-12-30 18:22:25,481 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:22:25,481 - Files: {}
+2024-12-30 18:22:25,481 - Missing files. Received: []
+2024-12-30 18:22:25,481 - 127.0.0.1 - - [30/Dec/2024 18:22:25] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:23:08,042 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 7a0e3d4e-25fc-4f2b-92e3-f3141ac73e86
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------848301274986003486879884
+Content-Length: 550954
+
+
+2024-12-30 18:23:08,044 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:23:08,044 - Files: {'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:23:08,044 - Missing files. Received: ['back_part']
+2024-12-30 18:23:08,045 - 127.0.0.1 - - [30/Dec/2024 18:23:08] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:23:25,474 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:23:25,932 -  * Restarting with stat
+2024-12-30 18:23:27,749 -  * Debugger is active!
+2024-12-30 18:23:27,751 -  * Debugger PIN: 133-935-886
+2024-12-30 18:23:34,715 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 27f02ec0-a27b-4c93-95ca-414d586a2936
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------901135614458560925534557
+Content-Length: 550954
+
+
+2024-12-30 18:23:34,717 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:23:34,718 - Files: {'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:23:34,718 - Missing files. Received: ['back_part']
+2024-12-30 18:23:34,718 - 127.0.0.1 - - [30/Dec/2024 18:23:34] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:26:38,609 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: 603b4c26-d788-42b3-8f0d-ad0298426232
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------408448600844908345102068
+Content-Length: 674697
+
+
+2024-12-30 18:26:38,620 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:26:38,620 - Files: {'file': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:26:38,620 - Missing files. Received: ['file', 'back_part']
+2024-12-30 18:26:38,620 - 127.0.0.1 - - [30/Dec/2024 18:26:38] "[31m[1mPOST /image_to_text HTTP/1.1[0m" 400 -
+2024-12-30 18:26:57,595 - Headers: User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: b14cb6ab-9ecb-4812-8f15-23e4b4238381
+Host: 127.0.0.1:5000
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=--------------------------758527514437958386550260
+Content-Length: 674703
+
+
+2024-12-30 18:26:57,597 - Form Data: ImmutableMultiDict([])
+2024-12-30 18:26:57,597 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:26:57,627 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:27:04,781 - STREAM b'IHDR' 16 13
+2024-12-30 18:27:04,781 - STREAM b'IDAT' 41 8192
+2024-12-30 18:27:04,781 - STREAM b'IHDR' 16 13
+2024-12-30 18:27:04,781 - STREAM b'IDAT' 41 8192
+2024-12-30 18:27:04,792 - Error closing: Operation on closed image
+2024-12-30 18:27:07,990 - 127.0.0.1 - - [30/Dec/2024 18:27:07] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:27:38,644 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:27:39,108 -  * Restarting with stat
+2024-12-30 18:27:40,920 -  * Debugger is active!
+2024-12-30 18:27:40,922 -  * Debugger PIN: 133-935-886
+2024-12-30 18:28:05,527 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:28:05,940 -  * Restarting with stat
+2024-12-30 18:28:07,799 -  * Debugger is active!
+2024-12-30 18:28:07,801 -  * Debugger PIN: 133-935-886
+2024-12-30 18:28:08,864 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:28:09,274 -  * Restarting with stat
+2024-12-30 18:28:11,094 -  * Debugger is active!
+2024-12-30 18:28:11,095 -  * Debugger PIN: 133-935-886
+2024-12-30 18:28:29,065 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:28:29,093 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:28:36,224 - STREAM b'IHDR' 16 13
+2024-12-30 18:28:36,224 - STREAM b'IDAT' 41 8192
+2024-12-30 18:28:36,224 - STREAM b'IHDR' 16 13
+2024-12-30 18:28:36,224 - STREAM b'IDAT' 41 8192
+2024-12-30 18:28:36,234 - Error closing: Operation on closed image
+2024-12-30 18:28:39,434 - 127.0.0.1 - - [30/Dec/2024 18:28:39] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:29:43,401 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:29:43,901 -  * Restarting with stat
+2024-12-30 18:29:45,779 -  * Debugger is active!
+2024-12-30 18:29:45,781 -  * Debugger PIN: 133-935-886
+2024-12-30 18:29:52,982 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:29:53,384 -  * Restarting with stat
+2024-12-30 18:29:55,214 -  * Debugger is active!
+2024-12-30 18:29:55,216 -  * Debugger PIN: 133-935-886
+2024-12-30 18:30:02,416 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:30:02,847 -  * Restarting with stat
+2024-12-30 18:30:04,666 -  * Debugger is active!
+2024-12-30 18:30:04,668 -  * Debugger PIN: 133-935-886
+2024-12-30 18:30:08,805 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:30:08,835 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:30:16,024 - STREAM b'IHDR' 16 13
+2024-12-30 18:30:16,024 - STREAM b'IDAT' 41 8192
+2024-12-30 18:30:16,024 - STREAM b'IHDR' 16 13
+2024-12-30 18:30:16,024 - STREAM b'IDAT' 41 8192
+2024-12-30 18:30:16,035 - Error closing: Operation on closed image
+2024-12-30 18:30:19,203 - back_result: [([[32, 134], [104, 134], [104, 162], [32, 162]], 'ঠিকানা:', 0.6278582333687572), ([[224, 135], [468, 135], [468, 166], [224, 166]], '৭0/১০, গ্রাম রাস্তা: সূলতান', 0.6069041226586253), ([[34, 160], [92, 160], [92, 184], [34, 184]], 'আহমে', 0.989951479001495), ([[102, 136], [232, 136], [232, 190], [102, 190]], 'বরোড, বান্ডিয়া', 0.22786368400084211), ([[110, 160], [160, 160], [160, 184], [110, 184]], 'রোড;', 0.655619204044342), ([[226, 158], [314, 158], [314, 208], [226, 208]], 'লনম সিটি', 0.9083164842912409), ([[292, 162], [472, 162], [472, 188], [292, 188]], 'ডাকঘর: খুলনী সদর', 0.6882405845391327), ([[31, 180], [266, 180], [266, 212], [31, 212]], '১১০০, খুলনা সদর, খুলনা', 0.4536796493894035), ([[309, 180], [472, 180], [472, 210], [309, 210]], 'কপোরেশন, খুলনা', 0.9480531915108794), ([[35, 241], [153, 241], [153, 261], [35, 261]], 'Eiond Group: H+', 0.23756065362102718), ([[183, 238], [360, 238], [360, 262], [183, 262]], 'Place of Birtn: KHULNA', 0.9282203596269292), ([[553, 245], [627, 245], [627, 261], [553, 261]], '558 1=:=', 0.1834226497224102), ([[632, 238], [732, 238], [732, 262], [632, 262]], '12 #a:-2017', 0.29933026604408125), ([[39, 313], [715, 313], [715, 349], [39, 349]], '1<BG03754 43426<86<<<<<<<<<<<<<', 0.7360598492598784), ([[38, 348], [713, 348], [713, 388], [38, 388]], '980519 413203112 BG0<<<<<<<<<<<8', 0.6034019467755857), ([[38, 386], [715, 386], [715, 424], [38, 424]], 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<', 0.9118681051716481)]
+2024-12-30 18:30:19,206 - 127.0.0.1 - - [30/Dec/2024 18:30:19] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:31:00,104 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:31:00,571 -  * Restarting with stat
+2024-12-30 18:31:02,388 -  * Debugger is active!
+2024-12-30 18:31:02,390 -  * Debugger PIN: 133-935-886
+2024-12-30 18:31:37,208 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:31:37,641 -  * Restarting with stat
+2024-12-30 18:31:39,515 -  * Debugger is active!
+2024-12-30 18:31:39,517 -  * Debugger PIN: 133-935-886
+2024-12-30 18:31:43,654 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:31:44,152 -  * Restarting with stat
+2024-12-30 18:31:45,995 -  * Debugger is active!
+2024-12-30 18:31:45,997 -  * Debugger PIN: 133-935-886
+2024-12-30 18:31:49,015 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:31:49,046 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:31:56,178 - STREAM b'IHDR' 16 13
+2024-12-30 18:31:56,178 - STREAM b'IDAT' 41 8192
+2024-12-30 18:31:56,178 - STREAM b'IHDR' 16 13
+2024-12-30 18:31:56,178 - STREAM b'IDAT' 41 8192
+2024-12-30 18:31:56,189 - Error closing: Operation on closed image
+2024-12-30 18:31:59,369 - 127.0.0.1 - - [30/Dec/2024 18:31:59] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:32:27,086 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:32:27,551 -  * Restarting with stat
+2024-12-30 18:32:29,425 -  * Debugger is active!
+2024-12-30 18:32:29,427 -  * Debugger PIN: 133-935-886
+2024-12-30 18:32:32,319 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:32:32,346 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:32:39,507 - STREAM b'IHDR' 16 13
+2024-12-30 18:32:39,507 - STREAM b'IDAT' 41 8192
+2024-12-30 18:32:39,507 - STREAM b'IHDR' 16 13
+2024-12-30 18:32:39,507 - STREAM b'IDAT' 41 8192
+2024-12-30 18:32:39,517 - Error closing: Operation on closed image
+2024-12-30 18:32:42,709 - 127.0.0.1 - - [30/Dec/2024 18:32:42] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:37:44,818 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:37:45,325 -  * Restarting with stat
+2024-12-30 18:37:47,188 -  * Debugger is active!
+2024-12-30 18:37:47,190 -  * Debugger PIN: 133-935-886
+2024-12-30 18:37:48,253 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:37:48,680 -  * Restarting with stat
+2024-12-30 18:37:50,604 -  * Debugger is active!
+2024-12-30 18:37:50,606 -  * Debugger PIN: 133-935-886
+2024-12-30 18:37:51,671 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:37:52,094 -  * Restarting with stat
+2024-12-30 18:37:53,901 -  * Debugger is active!
+2024-12-30 18:37:53,903 -  * Debugger PIN: 133-935-886
+2024-12-30 18:38:00,303 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:38:00,334 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:38:07,467 - STREAM b'IHDR' 16 13
+2024-12-30 18:38:07,467 - STREAM b'IDAT' 41 8192
+2024-12-30 18:38:07,467 - STREAM b'IHDR' 16 13
+2024-12-30 18:38:07,467 - STREAM b'IDAT' 41 8192
+2024-12-30 18:38:07,478 - Error closing: Operation on closed image
+2024-12-30 18:38:10,737 - 127.0.0.1 - - [30/Dec/2024 18:38:10] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:41:31,030 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:41:31,494 -  * Restarting with stat
+2024-12-30 18:41:33,306 -  * Debugger is active!
+2024-12-30 18:41:33,308 -  * Debugger PIN: 133-935-886
+2024-12-30 18:41:36,322 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:41:36,352 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:41:43,522 - STREAM b'IHDR' 16 13
+2024-12-30 18:41:43,522 - STREAM b'IDAT' 41 8192
+2024-12-30 18:41:43,522 - STREAM b'IHDR' 16 13
+2024-12-30 18:41:43,522 - STREAM b'IDAT' 41 8192
+2024-12-30 18:41:43,533 - Error closing: Operation on closed image
+2024-12-30 18:41:46,694 - 127.0.0.1 - - [30/Dec/2024 18:41:46] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:44:58,169 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:44:58,632 -  * Restarting with stat
+2024-12-30 18:45:00,455 -  * Debugger is active!
+2024-12-30 18:45:00,457 -  * Debugger PIN: 133-935-886
+2024-12-30 18:45:05,615 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:45:06,047 -  * Restarting with stat
+2024-12-30 18:45:07,874 -  * Debugger is active!
+2024-12-30 18:45:07,876 -  * Debugger PIN: 133-935-886
+2024-12-30 18:45:16,603 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:45:16,634 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:45:23,933 - STREAM b'IHDR' 16 13
+2024-12-30 18:45:23,933 - STREAM b'IDAT' 41 8192
+2024-12-30 18:45:23,934 - STREAM b'IHDR' 16 13
+2024-12-30 18:45:23,934 - STREAM b'IDAT' 41 8192
+2024-12-30 18:45:23,944 - Error closing: Operation on closed image
+2024-12-30 18:45:27,199 - 127.0.0.1 - - [30/Dec/2024 18:45:27] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:49:42,341 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:49:42,878 -  * Restarting with stat
+2024-12-30 18:49:44,689 -  * Debugger is active!
+2024-12-30 18:49:44,691 -  * Debugger PIN: 133-935-886
+2024-12-30 18:50:02,414 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:50:02,443 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:50:09,590 - STREAM b'IHDR' 16 13
+2024-12-30 18:50:09,590 - STREAM b'IDAT' 41 8192
+2024-12-30 18:50:09,590 - STREAM b'IHDR' 16 13
+2024-12-30 18:50:09,590 - STREAM b'IDAT' 41 8192
+2024-12-30 18:50:09,600 - Error closing: Operation on closed image
+2024-12-30 18:50:12,813 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 18:50:12,813 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান'}
+2024-12-30 18:50:12,815 - 127.0.0.1 - - [30/Dec/2024 18:50:12] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:52:23,468 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:52:23,945 -  * Restarting with stat
+2024-12-30 18:52:25,743 -  * Debugger is active!
+2024-12-30 18:52:25,745 -  * Debugger PIN: 133-935-886
+2024-12-30 18:52:29,062 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:52:29,092 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:52:36,463 - STREAM b'IHDR' 16 13
+2024-12-30 18:52:36,463 - STREAM b'IDAT' 41 8192
+2024-12-30 18:52:36,463 - STREAM b'IHDR' 16 13
+2024-12-30 18:52:36,463 - STREAM b'IDAT' 41 8192
+2024-12-30 18:52:36,474 - Error closing: Operation on closed image
+2024-12-30 18:52:39,642 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 18:52:39,642 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান'}
+2024-12-30 18:52:39,644 - 127.0.0.1 - - [30/Dec/2024 18:52:39] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:52:59,679 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:53:00,163 -  * Restarting with stat
+2024-12-30 18:53:02,013 -  * Debugger is active!
+2024-12-30 18:53:02,015 -  * Debugger PIN: 133-935-886
+2024-12-30 18:54:11,653 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:54:12,071 -  * Restarting with stat
+2024-12-30 18:54:13,880 -  * Debugger is active!
+2024-12-30 18:54:13,881 -  * Debugger PIN: 133-935-886
+2024-12-30 18:54:19,041 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:54:19,492 -  * Restarting with stat
+2024-12-30 18:54:21,338 -  * Debugger is active!
+2024-12-30 18:54:21,340 -  * Debugger PIN: 133-935-886
+2024-12-30 18:54:24,452 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:54:24,892 -  * Restarting with stat
+2024-12-30 18:54:26,760 -  * Debugger is active!
+2024-12-30 18:54:26,761 -  * Debugger PIN: 133-935-886
+2024-12-30 18:54:33,015 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:54:33,045 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:54:40,256 - STREAM b'IHDR' 16 13
+2024-12-30 18:54:40,256 - STREAM b'IDAT' 41 8192
+2024-12-30 18:54:40,256 - STREAM b'IHDR' 16 13
+2024-12-30 18:54:40,256 - STREAM b'IDAT' 41 8192
+2024-12-30 18:54:40,266 - Error closing: Operation on closed image
+2024-12-30 18:54:43,443 - Raw text: ['ঠিকানা:', '৭0/১০, গ্রাম রাস্তা: সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর: খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group: H+', 'Place of Birtn: KHULNA', '558 1=:=', '12 #a:-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 18:54:43,443 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 18:54:43,443 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান'}
+2024-12-30 18:54:43,446 - 127.0.0.1 - - [30/Dec/2024 18:54:43] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 18:57:16,900 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 18:57:17,437 -  * Restarting with stat
+2024-12-30 18:57:19,306 -  * Debugger is active!
+2024-12-30 18:57:19,308 -  * Debugger PIN: 133-935-886
+2024-12-30 18:57:32,389 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 18:57:32,419 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 18:57:39,564 - STREAM b'IHDR' 16 13
+2024-12-30 18:57:39,564 - STREAM b'IDAT' 41 8192
+2024-12-30 18:57:39,564 - STREAM b'IHDR' 16 13
+2024-12-30 18:57:39,564 - STREAM b'IDAT' 41 8192
+2024-12-30 18:57:39,576 - Error closing: Operation on closed image
+2024-12-30 18:57:42,751 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 18:57:42,751 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+ Place of Birtn KHULNA 558 1== 12 #a-2017 1<BG03754 43426<86<<<<<<<<<<<<< 980519 413203112 BG0<<<<<<<<<<<8 HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<'}
+2024-12-30 18:57:42,753 - 127.0.0.1 - - [30/Dec/2024 18:57:42] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:01:15,865 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:01:16,324 -  * Restarting with stat
+2024-12-30 19:01:18,197 -  * Debugger is active!
+2024-12-30 19:01:18,199 -  * Debugger PIN: 133-935-886
+2024-12-30 19:01:33,277 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:01:33,307 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:01:40,676 - STREAM b'IHDR' 16 13
+2024-12-30 19:01:40,676 - STREAM b'IDAT' 41 8192
+2024-12-30 19:01:40,676 - STREAM b'IHDR' 16 13
+2024-12-30 19:01:40,676 - STREAM b'IDAT' 41 8192
+2024-12-30 19:01:40,686 - Error closing: Operation on closed image
+2024-12-30 19:01:43,869 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:01:43,869 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+ Place of Birtn KHULNA 558 1== 12 #a-2017 1<BG03754 43426<86<<<<<<<<<<<<< 980519 413203112 BG0<<<<<<<<<<<8 HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<'}
+2024-12-30 19:01:43,872 - 127.0.0.1 - - [30/Dec/2024 19:01:43] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:01:52,183 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:01:52,709 -  * Restarting with stat
+2024-12-30 19:01:54,566 -  * Debugger is active!
+2024-12-30 19:01:54,568 -  * Debugger PIN: 133-935-886
+2024-12-30 19:01:56,823 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:01:56,859 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:02:04,034 - STREAM b'IHDR' 16 13
+2024-12-30 19:02:04,034 - STREAM b'IDAT' 41 8192
+2024-12-30 19:02:04,034 - STREAM b'IHDR' 16 13
+2024-12-30 19:02:04,034 - STREAM b'IDAT' 41 8192
+2024-12-30 19:02:04,045 - Error closing: Operation on closed image
+2024-12-30 19:02:07,357 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:02:07,357 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+ Place of Birtn KHULNA 558 1== 12 #a-2017 1<BG03754 43426<86<<<<<<<<<<<<< 980519 413203112 BG0<<<<<<<<<<<8 HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<'}
+2024-12-30 19:02:07,360 - 127.0.0.1 - - [30/Dec/2024 19:02:07] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:03:23,779 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:03:24,255 -  * Restarting with stat
+2024-12-30 19:03:26,049 -  * Debugger is active!
+2024-12-30 19:03:26,050 -  * Debugger PIN: 133-935-886
+2024-12-30 19:03:27,108 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:03:27,538 -  * Restarting with stat
+2024-12-30 19:03:29,378 -  * Debugger is active!
+2024-12-30 19:03:29,380 -  * Debugger PIN: 133-935-886
+2024-12-30 19:03:45,570 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:03:45,603 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:03:52,956 - STREAM b'IHDR' 16 13
+2024-12-30 19:03:52,956 - STREAM b'IDAT' 41 8192
+2024-12-30 19:03:52,956 - STREAM b'IHDR' 16 13
+2024-12-30 19:03:52,956 - STREAM b'IDAT' 41 8192
+2024-12-30 19:03:52,966 - Error closing: Operation on closed image
+2024-12-30 19:03:56,301 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:03:56,302 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+ Place of Birtn KHULNA 558 1== 12 #a-2017 1<BG03754 43426<86<<<<<<<<<<<<< 980519 413203112 BG0<<<<<<<<<<<8 HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<'}
+2024-12-30 19:03:56,304 - 127.0.0.1 - - [30/Dec/2024 19:03:56] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:05:57,965 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:05:58,449 -  * Restarting with stat
+2024-12-30 19:06:00,452 -  * Debugger is active!
+2024-12-30 19:06:00,454 -  * Debugger PIN: 133-935-886
+2024-12-30 19:06:03,567 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:06:04,026 -  * Restarting with stat
+2024-12-30 19:06:05,902 -  * Debugger is active!
+2024-12-30 19:06:05,904 -  * Debugger PIN: 133-935-886
+2024-12-30 19:06:08,929 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:06:08,959 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:06:16,142 - STREAM b'IHDR' 16 13
+2024-12-30 19:06:16,143 - STREAM b'IDAT' 41 8192
+2024-12-30 19:06:16,143 - STREAM b'IHDR' 16 13
+2024-12-30 19:06:16,143 - STREAM b'IDAT' 41 8192
+2024-12-30 19:06:16,153 - Error closing: Operation on closed image
+2024-12-30 19:06:19,384 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:06:19,385 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+ Place of Birtn KHULNA 558 1== 12 #a-2017 1<BG03754 43426<86<<<<<<<<<<<<< 980519 413203112 BG0<<<<<<<<<<<8 HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<'}
+2024-12-30 19:06:19,387 - 127.0.0.1 - - [30/Dec/2024 19:06:19] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:07:57,627 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:07:58,140 -  * Restarting with stat
+2024-12-30 19:07:59,990 -  * Debugger is active!
+2024-12-30 19:07:59,992 -  * Debugger PIN: 133-935-886
+2024-12-30 19:08:05,104 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:08:05,134 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:08:12,312 - STREAM b'IHDR' 16 13
+2024-12-30 19:08:12,312 - STREAM b'IDAT' 41 8192
+2024-12-30 19:08:12,312 - STREAM b'IHDR' 16 13
+2024-12-30 19:08:12,312 - STREAM b'IDAT' 41 8192
+2024-12-30 19:08:12,322 - Error closing: Operation on closed image
+2024-12-30 19:08:15,527 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:08:15,527 - Stopping address collection due to irrelevant text: Eiond Group H+
+2024-12-30 19:08:15,527 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা'}
+2024-12-30 19:08:15,530 - 127.0.0.1 - - [30/Dec/2024 19:08:15] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:12:50,805 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:12:51,289 -  * Restarting with stat
+2024-12-30 19:12:53,089 -  * Debugger is active!
+2024-12-30 19:12:53,090 -  * Debugger PIN: 133-935-886
+2024-12-30 19:12:56,117 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:12:56,149 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:13:03,480 - STREAM b'IHDR' 16 13
+2024-12-30 19:13:03,481 - STREAM b'IDAT' 41 8192
+2024-12-30 19:13:03,481 - STREAM b'IHDR' 16 13
+2024-12-30 19:13:03,481 - STREAM b'IDAT' 41 8192
+2024-12-30 19:13:03,491 - Error closing: Operation on closed image
+2024-12-30 19:13:06,702 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:13:06,702 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:13:06,702 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+'}
+2024-12-30 19:13:06,704 - 127.0.0.1 - - [30/Dec/2024 19:13:06] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:16:46,587 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:16:47,113 -  * Restarting with stat
+2024-12-30 19:16:48,976 -  * Debugger is active!
+2024-12-30 19:16:48,978 -  * Debugger PIN: 133-935-886
+2024-12-30 19:16:59,524 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:16:59,554 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:17:06,727 - STREAM b'IHDR' 16 13
+2024-12-30 19:17:06,728 - STREAM b'IDAT' 41 8192
+2024-12-30 19:17:06,728 - STREAM b'IHDR' 16 13
+2024-12-30 19:17:06,728 - STREAM b'IDAT' 41 8192
+2024-12-30 19:17:06,738 - Error closing: Operation on closed image
+2024-12-30 19:17:09,960 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:17:09,960 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:17:09,961 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+'}
+2024-12-30 19:17:09,963 - 127.0.0.1 - - [30/Dec/2024 19:17:09] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:25:59,770 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:26:00,262 -  * Restarting with stat
+2024-12-30 19:26:02,086 -  * Debugger is active!
+2024-12-30 19:26:02,088 -  * Debugger PIN: 133-935-886
+2024-12-30 19:26:18,507 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:26:18,952 -  * Restarting with stat
+2024-12-30 19:26:20,793 -  * Debugger is active!
+2024-12-30 19:26:20,795 -  * Debugger PIN: 133-935-886
+2024-12-30 19:26:23,904 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:26:24,329 -  * Restarting with stat
+2024-12-30 19:26:26,170 -  * Debugger is active!
+2024-12-30 19:26:26,172 -  * Debugger PIN: 133-935-886
+2024-12-30 19:26:30,403 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:26:30,432 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:26:37,699 - STREAM b'IHDR' 16 13
+2024-12-30 19:26:37,699 - STREAM b'IDAT' 41 8192
+2024-12-30 19:26:37,699 - STREAM b'IHDR' 16 13
+2024-12-30 19:26:37,699 - STREAM b'IDAT' 41 8192
+2024-12-30 19:26:37,710 - Error closing: Operation on closed image
+2024-12-30 19:26:40,973 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:26:40,973 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:26:40,973 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+'}
+2024-12-30 19:26:40,976 - 127.0.0.1 - - [30/Dec/2024 19:26:40] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:26:49,594 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:26:49,617 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:26:56,641 - STREAM b'IHDR' 16 13
+2024-12-30 19:26:56,641 - STREAM b'IDAT' 41 8192
+2024-12-30 19:26:56,641 - STREAM b'IHDR' 16 13
+2024-12-30 19:26:56,641 - STREAM b'IDAT' 41 8192
+2024-12-30 19:26:56,651 - Error closing: Operation on closed image
+2024-12-30 19:26:59,837 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:26:59,837 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:26:59,837 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+'}
+2024-12-30 19:26:59,838 - 127.0.0.1 - - [30/Dec/2024 19:26:59] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:29:36,909 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:29:37,393 -  * Restarting with stat
+2024-12-30 19:30:32,483 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.10.159:5000
+2024-12-30 19:30:32,483 - [33mPress CTRL+C to quit[0m
+2024-12-30 19:30:32,483 -  * Restarting with stat
+2024-12-30 19:30:34,296 -  * Debugger is active!
+2024-12-30 19:30:34,298 -  * Debugger PIN: 133-935-886
+2024-12-30 19:30:46,605 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:30:47,032 -  * Restarting with stat
+2024-12-30 19:30:48,862 -  * Debugger is active!
+2024-12-30 19:30:48,864 -  * Debugger PIN: 133-935-886
+2024-12-30 19:30:57,095 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:30:57,524 -  * Restarting with stat
+2024-12-30 19:30:59,358 -  * Debugger is active!
+2024-12-30 19:30:59,360 -  * Debugger PIN: 133-935-886
+2024-12-30 19:31:04,512 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:31:04,942 -  * Restarting with stat
+2024-12-30 19:31:06,763 -  * Debugger is active!
+2024-12-30 19:31:06,765 -  * Debugger PIN: 133-935-886
+2024-12-30 19:31:21,201 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:31:21,231 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:31:28,337 - STREAM b'IHDR' 16 13
+2024-12-30 19:31:28,337 - STREAM b'IDAT' 41 8192
+2024-12-30 19:31:28,337 - STREAM b'IHDR' 16 13
+2024-12-30 19:31:28,337 - STREAM b'IDAT' 41 8192
+2024-12-30 19:31:28,348 - Error closing: Operation on closed image
+2024-12-30 19:31:31,496 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:31:31,496 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:31:31,496 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+'}
+2024-12-30 19:31:31,498 - 127.0.0.1 - - [30/Dec/2024 19:31:31] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:34:50,112 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:34:50,587 -  * Restarting with stat
+2024-12-30 19:36:01,287 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.10.159:5000
+2024-12-30 19:36:01,287 - [33mPress CTRL+C to quit[0m
+2024-12-30 19:36:01,288 -  * Restarting with stat
+2024-12-30 19:36:03,126 -  * Debugger is active!
+2024-12-30 19:36:03,128 -  * Debugger PIN: 133-935-886
+2024-12-30 19:36:04,190 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:36:04,594 -  * Restarting with stat
+2024-12-30 19:36:06,386 -  * Debugger is active!
+2024-12-30 19:36:06,388 -  * Debugger PIN: 133-935-886
+2024-12-30 19:36:10,790 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:36:10,821 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:36:18,043 - STREAM b'IHDR' 16 13
+2024-12-30 19:36:18,043 - STREAM b'IDAT' 41 8192
+2024-12-30 19:36:18,043 - STREAM b'IHDR' 16 13
+2024-12-30 19:36:18,043 - STREAM b'IDAT' 41 8192
+2024-12-30 19:36:18,054 - Error closing: Operation on closed image
+2024-12-30 19:36:21,283 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:36:21,283 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:36:21,283 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+', 'blood_group': 'H+'}
+2024-12-30 19:36:21,286 - 127.0.0.1 - - [30/Dec/2024 19:36:21] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:39:27,130 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:39:27,608 -  * Restarting with stat
+2024-12-30 19:39:29,432 -  * Debugger is active!
+2024-12-30 19:39:29,434 -  * Debugger PIN: 133-935-886
+2024-12-30 19:39:34,586 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:39:35,035 -  * Restarting with stat
+2024-12-30 19:39:36,910 -  * Debugger is active!
+2024-12-30 19:39:36,912 -  * Debugger PIN: 133-935-886
+2024-12-30 19:39:39,005 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:39:39,458 -  * Restarting with stat
+2024-12-30 19:39:41,294 -  * Debugger is active!
+2024-12-30 19:39:41,296 -  * Debugger PIN: 133-935-886
+2024-12-30 19:39:45,293 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:39:45,324 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:39:52,564 - STREAM b'IHDR' 16 13
+2024-12-30 19:39:52,564 - STREAM b'IDAT' 41 8192
+2024-12-30 19:39:52,564 - STREAM b'IHDR' 16 13
+2024-12-30 19:39:52,564 - STREAM b'IDAT' 41 8192
+2024-12-30 19:39:52,575 - Error closing: Operation on closed image
+2024-12-30 19:39:55,835 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:39:55,836 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:39:55,836 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা'}
+2024-12-30 19:39:55,838 - 127.0.0.1 - - [30/Dec/2024 19:39:55] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:40:36,745 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:40:37,254 -  * Restarting with stat
+2024-12-30 19:40:39,062 -  * Debugger is active!
+2024-12-30 19:40:39,063 -  * Debugger PIN: 133-935-886
+2024-12-30 19:40:43,198 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:40:43,636 -  * Restarting with stat
+2024-12-30 19:40:45,515 -  * Debugger is active!
+2024-12-30 19:40:45,517 -  * Debugger PIN: 133-935-886
+2024-12-30 19:40:46,581 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:40:46,982 -  * Restarting with stat
+2024-12-30 19:40:48,817 -  * Debugger is active!
+2024-12-30 19:40:48,819 -  * Debugger PIN: 133-935-886
+2024-12-30 19:40:52,639 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:40:52,669 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:40:59,878 - STREAM b'IHDR' 16 13
+2024-12-30 19:40:59,879 - STREAM b'IDAT' 41 8192
+2024-12-30 19:40:59,879 - STREAM b'IHDR' 16 13
+2024-12-30 19:40:59,879 - STREAM b'IDAT' 41 8192
+2024-12-30 19:40:59,889 - Error closing: Operation on closed image
+2024-12-30 19:41:03,161 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:41:03,161 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:41:03,161 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+'}
+2024-12-30 19:41:03,163 - 127.0.0.1 - - [30/Dec/2024 19:41:03] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:41:10,487 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:41:10,978 -  * Restarting with stat
+2024-12-30 19:41:21,526 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.10.159:5000
+2024-12-30 19:41:21,526 - [33mPress CTRL+C to quit[0m
+2024-12-30 19:41:21,527 -  * Restarting with stat
+2024-12-30 19:41:23,348 -  * Debugger is active!
+2024-12-30 19:41:23,350 -  * Debugger PIN: 133-935-886
+2024-12-30 19:41:23,768 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:41:23,797 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:41:30,987 - STREAM b'IHDR' 16 13
+2024-12-30 19:41:30,987 - STREAM b'IDAT' 41 8192
+2024-12-30 19:41:30,987 - STREAM b'IHDR' 16 13
+2024-12-30 19:41:30,987 - STREAM b'IDAT' 41 8192
+2024-12-30 19:41:30,997 - Error closing: Operation on closed image
+2024-12-30 19:41:34,251 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:41:34,251 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:41:34,251 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা Eiond Group H+', 'blood_group': 'H+'}
+2024-12-30 19:41:34,254 - 127.0.0.1 - - [30/Dec/2024 19:41:34] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:42:23,923 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:42:24,458 -  * Restarting with stat
+2024-12-30 19:43:11,550 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.10.159:5000
+2024-12-30 19:43:11,550 - [33mPress CTRL+C to quit[0m
+2024-12-30 19:43:11,551 -  * Restarting with stat
+2024-12-30 19:43:13,406 -  * Debugger is active!
+2024-12-30 19:43:13,408 -  * Debugger PIN: 133-935-886
+2024-12-30 19:43:13,588 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:43:13,617 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:43:20,715 - STREAM b'IHDR' 16 13
+2024-12-30 19:43:20,715 - STREAM b'IDAT' 41 8192
+2024-12-30 19:43:20,715 - STREAM b'IHDR' 16 13
+2024-12-30 19:43:20,715 - STREAM b'IDAT' 41 8192
+2024-12-30 19:43:20,725 - Error closing: Operation on closed image
+2024-12-30 19:43:23,924 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:43:23,924 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:43:23,924 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা'}
+2024-12-30 19:43:23,926 - 127.0.0.1 - - [30/Dec/2024 19:43:23] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:45:52,218 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:45:52,707 -  * Restarting with stat
+2024-12-30 19:45:54,549 -  * Debugger is active!
+2024-12-30 19:45:54,551 -  * Debugger PIN: 133-935-886
+2024-12-30 19:45:54,828 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:45:54,863 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:46:01,982 - STREAM b'IHDR' 16 13
+2024-12-30 19:46:01,982 - STREAM b'IDAT' 41 8192
+2024-12-30 19:46:01,983 - STREAM b'IHDR' 16 13
+2024-12-30 19:46:01,983 - STREAM b'IDAT' 41 8192
+2024-12-30 19:46:01,993 - Error closing: Operation on closed image
+2024-12-30 19:46:05,186 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:46:05,186 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:46:05,186 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা'}
+2024-12-30 19:46:05,189 - 127.0.0.1 - - [30/Dec/2024 19:46:05] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:46:15,180 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:46:15,705 -  * Restarting with stat
+2024-12-30 19:46:17,559 -  * Debugger is active!
+2024-12-30 19:46:17,561 -  * Debugger PIN: 133-935-886
+2024-12-30 19:46:18,055 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:46:18,085 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:46:25,230 - STREAM b'IHDR' 16 13
+2024-12-30 19:46:25,230 - STREAM b'IDAT' 41 8192
+2024-12-30 19:46:25,230 - STREAM b'IHDR' 16 13
+2024-12-30 19:46:25,230 - STREAM b'IDAT' 41 8192
+2024-12-30 19:46:25,241 - Error closing: Operation on closed image
+2024-12-30 19:46:28,439 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:46:28,439 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:46:28,439 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা'}
+2024-12-30 19:46:28,442 - 127.0.0.1 - - [30/Dec/2024 19:46:28] "POST /image_to_text HTTP/1.1" 200 -
+2024-12-30 19:47:10,949 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:47:11,428 -  * Restarting with stat
+2024-12-30 19:47:13,317 -  * Debugger is active!
+2024-12-30 19:47:13,319 -  * Debugger PIN: 133-935-886
+2024-12-30 19:47:14,378 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:47:14,854 -  * Restarting with stat
+2024-12-30 19:47:16,654 -  * Debugger is active!
+2024-12-30 19:47:16,656 -  * Debugger PIN: 133-935-886
+2024-12-30 19:47:26,930 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:47:27,351 -  * Restarting with stat
+2024-12-30 19:47:29,187 -  * Debugger is active!
+2024-12-30 19:47:29,189 -  * Debugger PIN: 133-935-886
+2024-12-30 19:47:30,252 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:47:30,679 -  * Restarting with stat
+2024-12-30 19:47:32,491 -  * Debugger is active!
+2024-12-30 19:47:32,493 -  * Debugger PIN: 133-935-886
+2024-12-30 19:47:44,812 -  * Detected change in '/home/vg/Desktop/python/simple_ocr/app.py', reloading
+2024-12-30 19:47:45,278 -  * Restarting with stat
+2024-12-30 19:47:47,167 -  * Debugger is active!
+2024-12-30 19:47:47,169 -  * Debugger PIN: 133-935-886
+2024-12-30 19:47:49,415 - Files: {'front_part': <FileStorage: 'enamul.jpeg' ('image/jpeg')>, 'back_part': <FileStorage: 'enamul_back.png' ('image/png')>}
+2024-12-30 19:47:49,446 - Neither CUDA nor MPS are available - defaulting to CPU. Note: This module is much faster with a GPU.
+2024-12-30 19:47:56,581 - STREAM b'IHDR' 16 13
+2024-12-30 19:47:56,581 - STREAM b'IDAT' 41 8192
+2024-12-30 19:47:56,581 - STREAM b'IHDR' 16 13
+2024-12-30 19:47:56,581 - STREAM b'IDAT' 41 8192
+2024-12-30 19:47:56,592 - Error closing: Operation on closed image
+2024-12-30 19:47:59,757 - Raw text (back side): ['ঠিকানা', '৭0/১০, গ্রাম রাস্তা সূলতান', 'আহমে', 'বরোড, বান্ডিয়া', 'রোড;', 'লনম সিটি', 'ডাকঘর খুলনী সদর', '১১০০, খুলনা সদর, খুলনা', 'কপোরেশন, খুলনা', 'Eiond Group H+', 'Place of Birtn KHULNA', '558 1==', '12 #a-2017', '1<BG03754 43426<86<<<<<<<<<<<<<', '980519 413203112 BG0<<<<<<<<<<<8', 'HOSSAIN<<M<M<ENAMUL<<<<<<<<<<<']
+2024-12-30 19:47:59,757 - Stopping address collection due to irrelevant text: Place of Birtn KHULNA
+2024-12-30 19:47:59,757 - Extracted data: {'address': '৭0/১০, গ্রাম রাস্তা সূলতান আহমে বরোড, বান্ডিয়া রোড; লনম সিটি ডাকঘর খুলনী সদর ১১০০, খুলনা সদর, খুলনা কপোরেশন, খুলনা'}
+2024-12-30 19:47:59,760 - 127.0.0.1 - - [30/Dec/2024 19:47:59] "POST /image_to_text HTTP/1.1" 200 -
