@@ -37,7 +37,7 @@ def is_image_quality_low(image_path):
 
     # Check brightness
     brightness = np.mean(image)
-    if brightness < 50:
+    if brightness < 75:
         logging.warning("Image is too dark.")
         return "Image is too dark."
 
@@ -138,7 +138,10 @@ def nid_ocr():
         response.headers["Content-Type"] = "application/json; charset=utf-8"
         return response, 400
 
-def parse_nid_data(raw_text):
+def parse_nid_data(front_text):
+    
+    print('front part', front_text)
+    
     """
     Parse the text extracted from the front part of the ID.
     """
@@ -154,16 +157,20 @@ def parse_nid_data(raw_text):
 
     corrections = {
         "মাম": "নাম",
+        "মাহা": "মাতা",
+        "Nlare": "Name",
         "মাঢা": "মাতা",
+        "এম, এম": "নাম",
         "Dare of Birth": "Date of Birth",
         "ID NO": "NID No",
+        "WID ^0": "NID No"
     }
 
     data = {}
     temp_key = None
 
     # Correct OCR mistakes using the corrections dictionary
-    raw_text = [corrections.get(text, text) for text in raw_text]
+    raw_text = [corrections.get(text, text) for text in front_text]
 
     # Process raw text and extract fields
     for text in raw_text:
@@ -199,7 +206,7 @@ def parse_back_data(raw_text):
         "43426<86", "BG0<<<<<<<<<<<8", "HOSSAIN<<M<M<ENAMUL", "Date of Birth"
     ]
 
-    valid_blood_groups = ["A+", "B+", "O+", "AB+", "A-", "B-", "O-", "AB-", "H+"]
+    valid_blood_groups = ["A+", "B+", "O+", "AB+", "A-", "B-", "O-", "AB-"]
 
     data = {}
     temp_key = None
