@@ -120,7 +120,6 @@ def nid_ocr():
         front_text = [detection[1] for detection in front_result]
         back_text = [detection[1] for detection in back_result]
 
-
         front_data = parse_nid_data(front_text)
         back_data = parse_back_data(back_text)
         
@@ -182,89 +181,89 @@ def parse_nid_data(front_text):
     return data
 
 
-
 def parse_back_data(raw_text):
     """
-    Parse the text extracted from the back part of the ID, ensuring all address lines are merged correctly
-    and misinterpreted fields are handled.
+    Parse the text extracted from the back part of the ID, ensuring all address lines are merged correctly and misinterpreted fields are handled.
     """
-    # Field mapping to standard labels
     correct_fields = {
         "ঠিকানা": "address",
         "Address": "address",
+        "রক্তের গ্রুপ": "blood_group",
         "Blood Group": "blood_group",
-        "Eiond Group": "blood_group",
+        "Eiond Group": "Blood Group", 
     }
 
-    # OCR corrections for common misinterpretations
     corrections = {
-        "Eiond Group": "Blood Group",
-        "Group": "Blood Group",
-        "ঠিকানা": "Address",
+        "Eiond Group": "Blood Group",  # Fix for OCR misinterpretation
+        "Group": "Blood Group",  # Handle common OCR mistakes
+        "রক্তের গ্রপ": "রক্তের গ্রুপ",  # Bengali correction for 'Blood Group'
     }
 
-    # Keywords to exclude from processing
     irrelevant_keywords = [
-        "Place of Birtn", "KHULNA", "558 1=:=<", "12 #a:-2017", "1<BG03754",
+        "Place of Birtn", "KHULNA", "558 1==", "12 #a-2017", "1<BG03754", 
         "43426<86", "BG0<<<<<<<<<<<8", "HOSSAIN<<M<M<ENAMUL", "Date of Birth"
     ]
 
-    # List of valid blood groups
-    valid_blood_groups = ["A+", "B+", "O+", "AB+", "A-", "B-", "O-", "AB-", "H+"]
+    valid_blood_groups = ["A+", "B+", "O+", "AB+", "A-", "B-", "O-", "AB-"]
 
-    # Initialize results and temporary variables
     data = {}
     temp_key = None
-    address_lines = []
-    blood_group_found = False
+    address_lines = []  # To collect address-related text
+    blood_group_found = True  # Flag to ensure only one blood group is captured
 
-    # Correct OCR mistakes
-    corrected_text = [corrections.get(text, text) for text in raw_text]
-    
-    print('corrected_text:',corrected_text)
+    # Preprocess text: Apply corrections and remove unnecessary characters
+    raw_text = [corrections.get(text.strip().replace(":", ""), text.strip().replace(":", "")) for text in raw_text if text.strip()]
 
-    # Process raw text and extract fields
-    for text in corrected_text:
-        # Skip irrelevant lines
-        if any(keyword in text for keyword in irrelevant_keywords):
-            continue
+    # Debug: Print raw text before processing
+    logging.debug(f"Raw text (back side): {raw_text}")
 
-        # Match recognized fields
-        if text.rstrip(":") in correct_fields:
-            temp_key = correct_fields[text.rstrip(":")]
-            print('text:',text)
-        elif temp_key == "address":  # Collect multiline address data
-            if "Eiond Group" in text or text.strip() in valid_blood_groups:
-                # Extract blood group if present in the address block
-                blood_group = text.split(":")[-1].strip()
-                if blood_group in valid_blood_groups:
-                    data["blood_group"] = blood_group
+    for text in raw_text:
+        if text in correct_fields:
+            temp_key = correct_fields[text]
+            if temp_key == "address":
+                address_lines = []  # Start fresh collection for address
+        elif temp_key:
+            if temp_key == "address":
+                # Stop adding address lines if we encounter irrelevant data
+                if any(keyword in text for keyword in irrelevant_keywords):
+                    logging.debug(f"Stopping address collection due to irrelevant text: {text}")
+                    break  # Stop collecting address
+                else:
+                    address_lines.append(text)
+            elif temp_key == "blood_group":
+                # Ensure that we are capturing only valid blood group values
+                if not blood_group_found and text in valid_blood_groups:
+                    data[temp_key] = text
                     blood_group_found = True
-                    logging.debug(f"Blood Group Found: {blood_group}")
+                temp_key = None  # Reset temp_key after processing blood group
+            elif temp_key == "place_of_birth":
+                data[temp_key] = text
+                temp_key = None
+            elif temp_key == "date_of_birth":
+                data[temp_key] = text
+                temp_key = None
             else:
-                address_lines.append(text)
-                logging.debug(f"Address Line: {text}")
-        elif temp_key == "blood_group" and not blood_group_found:
-            # Validate and set blood group
-            if text in valid_blood_groups:
-                data["blood_group"] = text
-                logging.debug(f"Blood Group Set: {text}")
-            temp_key = None  
-        else:
-            temp_key = None
+                data[temp_key] = text
+                temp_key = None  # Reset temp_key after processing
 
-    # Combine address lines into a single string
+    # Merge and clean up the address field
     if address_lines:
-        # Clean up the combined address by removing irrelevant substrings
-        address = ", ".join(address_lines).replace(";", ",").strip(", ")
-        for keyword in irrelevant_keywords + ["Eiond Group: H+", "558 1=:="]:
-            address = address.replace(keyword, "").strip(", ")
-        data["address"] = address
+        address_text = " ".join(address_lines).strip()
+        # Remove 'Eiond Group H+' from the address if present
+        address_text = address_text.replace("Eiond Group H+", "").strip()
+        data["address"] = address_text
+
+    # Ensure that Blood Group is correctly separated and identified
+    if "address" in data:
+        # Check if 'Eiond Group H+' is part of the address and set blood_group accordingly
+        if "Eiond Group H+" in data["address"]:
+            data["blood_group"] = "H+"
+    
+    # Debug: Check if address and blood group are extracted correctly
+    logging.debug(f"Extracted data: {data}")
 
     return data
 
-
-  
 
 
 
